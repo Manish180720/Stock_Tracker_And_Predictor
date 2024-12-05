@@ -6,7 +6,7 @@ const News = () => {
     const [news, setNews] = useState()
 
     const getData = async () => {
-        const response = await fetch("https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=a30388a76c22470daf7fa96a93d0ccc8");
+        const response = await fetch("https://newsapi.org/v2/everything?q=tesla&from=2024-11-05&sortBy=publishedAt&apiKey=340ebf46bd7f482eab6b264c9f92c318");
         if (response.status == 200) {
             const data = await response.json();
             console.log(data.articles);

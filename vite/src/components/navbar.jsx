@@ -47,7 +47,7 @@ export const NavbarTwo = () => {
                         </span>
                     </Link>
 
-                    {/* <div className="lg:hidden">
+                    <div className="lg:hidden">
                         <button className="navbar-burger flex items-center text-gray-600 dark:text-gray-300 p-3">
                             <svg
                                 className="block h-4 w-4 fill-current"
@@ -58,7 +58,7 @@ export const NavbarTwo = () => {
                                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
                             </svg>
                         </button>
-                    </div> */}
+                    </div>
 
                     <ul className="flex items-center grow mx-10 space-x-4">
                         <li>

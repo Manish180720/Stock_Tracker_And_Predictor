@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "browserslist": "^4.24.2",
+    "caniuse-lite": "^1.0.30001686",
+    "yarn": "^1.22.19"
+  }
+}
